@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 
-public class BuyPayment {
+public class Payment {
     private SelenideElement heading = $(byText("Оплата по карте"));
     private SelenideElement cardNumber = $(byText("Номер карты")).parent().$(".input__control");
     private SelenideElement month = $(byText("Месяц")).parent().$(".input__control");
@@ -28,7 +28,7 @@ public class BuyPayment {
     private SelenideElement cardExpiredError = $(byText("Истёк срок действия карты"));
     private SelenideElement requiredFieldError = $(byText("Поле обязательно для заполнения"));
 
-    public BuyPayment() {
+    public Payment() {
         heading.shouldBe(visible);
     }
 
