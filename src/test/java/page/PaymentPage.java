@@ -1,5 +1,7 @@
-package page;
+package ru.netology.page;
 
+import ru.netology.page.Payment;
+import ru.netology.page.BuyInCreditPayment;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selectors.byText;
