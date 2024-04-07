@@ -11,11 +11,11 @@ public class DataHelper {
 
     public static Faker faker = new Faker(new Locale("en"));
     public static CardInfo getApprovedCard() {
-        return new CardInfo("4444444444444441", getShiftedMonth(2), getShiftedYear(0), "Ivan Ivanov", "888");
+        return new CardInfo("4444444444444441", getShiftedMonth(2), getShiftedYear(0), "Ivan Gorbunov", "888");
     }
 
     public static CardInfo getDeclinedCard() {
-        return new CardInfo("4444444444444442", getShiftedMonth(3), getShiftedYear(1), "Ivan Ivanov", "777");
+        return new CardInfo("4444444444444442", getShiftedMonth(3), getShiftedYear(1), "Ivan Gorbunov", "777");
     }
 
     public static CardInfo getEmptyCard() {
