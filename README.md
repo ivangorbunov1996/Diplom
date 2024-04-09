@@ -8,7 +8,7 @@
 
 ### Запуск Тестов:
 
-1. Склонировать [репозиторий](https://github.com/ivangorbunov1996/Diplom) командой `git pull` на локальный компьютер;
+1. Склонировать [репозиторий](https://github.com/ivangorbunov1996/Diplom) командой `git clone` на локальный компьютер;
 2. Запустить на компьютере Docker Desktop.
 3. В IntelliJ IDEA открыть терминал.
 4. Выполнить команду: `docker-compose up`.
